@@ -9,26 +9,26 @@ int main() {
     std::cout << "\n--- Operaciones con números decimales ---" << std::endl;
     double a = 10.5, b = 3.2;
     
-    std::cout << "Números: " << a << " y " << b << std::endl;
+    std::cout << "Numeros: " << a << " y " << b << std::endl;
     std::cout << "Suma: " << MathLib::suma(a, b) << std::endl;
     std::cout << "Resta: " << MathLib::resta(a, b) << std::endl;
-    std::cout << "Multiplicación: " << MathLib::multiplicacion(a, b) << std::endl;
+    std::cout << "Multiplicacion: " << MathLib::multiplicacion(a, b) << std::endl;
     
     // Probando con números enteros
-    std::cout << "\n--- Operaciones con números enteros ---" << std::endl;
+    std::cout << "\n--- Operaciones con numeros enteros ---" << std::endl;
     int x = 15, y = 4;
     
-    std::cout << "Números: " << x << " y " << y << std::endl;
+    std::cout << "Numeros: " << x << " y " << y << std::endl;
     std::cout << "Suma: " << MathLib::suma(x, y) << std::endl;
     std::cout << "Resta: " << MathLib::resta(x, y) << std::endl;
-    std::cout << "Multiplicación: " << MathLib::multiplicacion(x, y) << std::endl;
+    std::cout << "Multiplicacion: " << MathLib::multiplicacion(x, y) << std::endl;
     
     // Ejemplo interactivo
     std::cout << "\n--- Prueba interactiva ---" << std::endl;
     double num1, num2;
-    std::cout << "Ingresa el primer número: ";
+    std::cout << "Ingresa el primer numero: ";
     std::cin >> num1;
-    std::cout << "Ingresa el segundo número: ";
+    std::cout << "Ingresa el segundo numero: ";
     std::cin >> num2;
     
     std::cout << "\nResultados:" << std::endl;
