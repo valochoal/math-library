@@ -1,0 +1,36 @@
+# Archivos compilados
+*.o
+*.obj
+*.exe
+*.out
+*.app
+
+# Librerías compiladas
+*.a
+*.so
+*.dylib
+*.lib
+*.dll
+
+# Directorios de build
+build/
+bin/
+obj/
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db
+
+# Editores e IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Archivos de prueba temporal
+test_*
+temp_*
+
+# Archivos de log
+*.log
